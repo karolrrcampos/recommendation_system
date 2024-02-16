@@ -7,7 +7,11 @@
 
 Este repositório contém a implementação de um sistema de recomendação de filmes utilizando a técnica de filtragem colaborativa. Os dados utilizados nas análises estão disponíveis em [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/), disponibilizado pelo GroupLens Research.
 
-A primeira parte do relatório referente ao sistema de recomendação pode ser encontrada em [Pré-processamento e Análise Exploratória de Dados: Pilares Fundamentais para Sistemas de Recomendação Eficientes (Part. 1)](https://medium.com/@karol.r.r.campos/pr%C3%A9-processamento-e-an%C3%A1lise-explorat%C3%B3ria-de-dados-pilares-fundamentais-para-sistemas-de-8159d746ec9f)
+Os relatórios referentes ao estudo realizado podem ser encontrada em: 
+
+[Pré-processamento e Análise Exploratória de Dados: Pilares Fundamentais para Sistemas de Recomendação Eficientes (Part. 1)](https://medium.com/@karol.r.r.campos/pr%C3%A9-processamento-e-an%C3%A1lise-explorat%C3%B3ria-de-dados-pilares-fundamentais-para-sistemas-de-8159d746ec9f) 
+
+[Pré-processamento e Análise Exploratória de Dados: Pilares Fundamentais para Sistemas de Recomendação Eficientes (Part. 2)](https://medium.com/@karol.r.r.campos/pr%C3%A9-processamento-e-an%C3%A1lise-explorat%C3%B3ria-de-dados-pilares-fundamentais-para-sistemas-de-b96c154e12f2)
 
 
 ## Objetivo
