@@ -404,7 +404,7 @@ ggplot(dados_agregados, aes(x = contagem, y = occupation, fill = nome_generos)) 
 # ---------------------------
 # Pré-Tratamento Para Recomendação
 
-# Remover dados duplicados
+# Ajuste os data types
 dados[,c(1,5,6,8,9,10,12,13,14,15)] <- lapply(dados[,c(1,5,6,8,9,10,12,13,14,15)], as.character)
 dados[,c(3,4,11)] <- lapply(dados[,c(3,4,11)], as.factor)
 dados[,c(2,7)] <- lapply(dados[,c(2,7)], as.numeric)
@@ -521,12 +521,6 @@ transposed_matrix <- transposed_matrix[, c(ncol(transposed_matrix), 1:(ncol(tran
 
 rownames(transposed_matrix) <- NULL
 
-# Extrair todos os items de predicao
-predicao <- predict(object = modelo_recomendacao,
-                    newdata = testing_data,
-                    n = 5)
-
-user1 <- predicao@items
 all_movies <- list()
 
 # Iterar sobre os vetores de itens de cada usuário
